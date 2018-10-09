@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+	
+		dl.tabs dt {
+			background:#f4f6f5;
+			padding:8px 10px;
+			border:none;
+			color:#333;
+			float:left;
+			height:55px; line-height:55px;
+			padding:0 12px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:15px;
+			font-weight:bold;
+			margin:0px 3px 0px 0px;	
+			text-transform:uppercase;
+			position:relative;
+			z-index:1000;
+			left:415px;
+			top:400px;
+		}
+			
+.img-one { background:url(//d1i986aobszzxa.cloudfront.net/images/banner-bg.jpg) no-repeat; display:block;}	
+.img-two { background:url(//d1i986aobszzxa.cloudfront.net/images/bg3.jpg) no-repeat; display:block;}	
+.img-three { background:url(//d1i986aobszzxa.cloudfront.net/images/bg4.jpg) no-repeat; display:block;}	
+.img-four { background:url(//d1i986aobszzxa.cloudfront.net/images/bg2.jpg) no-repeat; display:block;}			
+			
+			
+			
+			
+			
+			
+			
+		dl.tabs dd {
+			
+			width:1200px;
+			height:514px;
+				
+			clear:both;
+			display:block;
+		}
+					
+		/* if JS is ACTIVATED, enable new style to dl.tabs */
+		dl.tabs.enabled {
+			 width:1200px; height:514px;
+		}
+		dl.tabs.enabled dt {
+			
+			border-width:0;
+			border-color:#e8e8e8;
+			border-style:solid;
+			color:#7a7a7a;
+			cursor:pointer;
+		}
+			dl.tabs.enabled dt:hover {
+				background:#1e9ad8;
+				color:#FFF;
+			}
+		dl.tabs.enabled dt.active {
+			background:#1e9ad8;
+			color:#FFF!important;
+			cursor:default;
+		}
+			dl.tabs.enabled dd {
+				position:absolute;
+				top:0px;
+				left:0;
+				margin:0;
+				z-index:1;
+				clear:none;
+			}
+			dl.tabs.enabled dd.active {
+				z-index:3;
+			}
+
+
+.banner-right {
+    float: right;
+    height: auto;
+    width: 784px;
+}
+.inner-div {
+    height: auto;
+    padding-left: 36px;
+    padding-top: 0px;
+    width: 754px;
+}
+.inner-div  h2 {
+  
+    color: #767575;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.inner-div ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.inner-div ul li {
+    background:url(//d1i986aobszzxa.cloudfront.net/images/balck-li-img.png) no-repeat scroll -1px 14px; display:block;
+    color: #767575;
+    font: bold 20px/40px helvetica;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.talk-advisor {
+    background: linear-gradient(to bottom, #FFFFFF, #EFEDE8) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    float: left;
+    height: auto;
+    left: 45px;
+    padding-bottom: 30px;
+    padding-top: 22px;
+    position: absolute;
+    top: 20px;
+    width: 340px;
+    z-index: 500;
+}
+
+
+
+
+
+
+
+
