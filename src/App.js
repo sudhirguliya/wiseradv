@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, NavBar } from './components';
+import { Footer, Container, NavBar } from './components';
 
 //import logo from './logo.svg';
 import './App.css';
@@ -12,6 +12,7 @@ class App extends Component {
       <div id="wraped">
         <NavBar/>
         <Container/>
+        <Footer/>
       </div>
     );
   }

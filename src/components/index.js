@@ -10,6 +10,8 @@ import AdditionalResources from './AdditionalResources/AdditionalResources';
 import Accordian from './Accordian/Accordian';
 import Tabs from './Tabs/Tabs';
 import DemoCarousel from './DemoCarousel/DemoCarousel';
+import Footer from './Footer/Footer';
+import Resources from './Resources/Resources';
 
 export {
     NavBar,
@@ -23,5 +25,7 @@ export {
     AdditionalResources,
     Accordian,
     Tabs,
-    DemoCarousel
+    DemoCarousel,
+    Footer,
+    Resources
 };
